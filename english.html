@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.2.js"
+        integrity="sha256-pkn2CUZmheSeyssYw3vMp1+xyub4m+e+QK4sQskvuo4=" crossorigin="anonymous">
+        </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("XveQV7NuDuvsIqHxH");
+        })();
+    </script>
+    <title>Portfolio</title>
+</head>
+
+<body class="main-content">
+
+    <!-- HEADER -->
+    <header class="section sec1 header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="img/photo.jpg" alt="">
+                </div>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hi, I'm <span>Kozett Palmai</span> a Web Developer.
+                </h1>
+                <p>I enjoy creating websites and solving problems that come along the way. I'm determined to improve my skills and
+                    become a Full Stack web developer.</p>
+                <!-- <div class="btn-con"></div> -->
+                <a href="/CV Kozett Palmai.pdf" download class="main-btn">
+                    <span class="btn-text">Download CV</span>
+                    <span class="btn-icon"><i class="fa-solid fa-download"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- ABOUT SECTION -->
+        <section class="section sec2 about" id="about">
+            <div class="main-title">
+                <h2>About <span>me</span><!--<span class="bg-text">LANGAGES WEB</span>--></h2>
+            </div>
+            <!-- <div class="about-container">
+                <div class="right-about"></div>
+            </div> -->
+            <div class="about-stats">
+                <h4 class="stat-title">LANGUAGES</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title">html5</p>
+                        <div class="progress-con">
+                            <p class="prog text">95%</p>
+                            <div class="progress">
+                                <span class="html"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">CSS</p>
+                        <div class="progress-con">
+                            <p class="prog text">85%</p>
+                            <div class="progress">
+                                <span class="css"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">JavaScript</p>
+                        <div class="progress-con">
+                            <p class="prog text">60%</p>
+                            <div class="progress">
+                                <span class="js"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">PHP</p>
+                        <div class="progress-con">
+                            <p class="prog text">40%</p>
+                            <div class="progress">
+                                <span class="php"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">SQL</p>
+                        <div class="progress-con">
+                            <p class="prog text">40%</p>
+                            <div class="progress">
+                                <span class="sql"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">wordpress</p>
+                        <div class="progress-con">
+                            <p class="prog text">30%</p>
+                            <div class="progress">
+                                <span class="wordpress"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h4 style="padding-top: 3rem;" class="stat-title">STUDIES</h4>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">nov. 2022 - present</p>
+                    <h5>Full Stack Developer course – (12 months) <br> online<span> <br> 3W Academy</span>
+                    </h5>
+                    <p>Specialisation React and Node JS</p>
+                </div>
+            </div>
+            <br>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">aug. 2022 - dec. 2022</p>
+                    <h5>Web Development course – (4 months) <br> online<span> <br> 3W
+                            Academy</span></h5>
+                    <p>HTML, CSS, JavaScript, PHP, SQL</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO SECTION -->
+        <section class="section sec3 portfolio" id="portfolio">
+            <div class="main-title">
+                <h2>My <span>Projects</span><!--<span class="bg-text">Mes projets</span>--></h2>
+            </div>
+            <div class="container-vid">
+                <div class="video-container">
+                    <div class="video"><video src="img/Recipe_finder.mp4" muted></video></div>
+                    <div class="video"><video src="img/Crud_customers.mp4" muted></video></div>
+                    <div class="video"><video src="img/React_app.mp4" muted></video></div>
+                    <!-- <div class="video"><video src="img/video.mp4" muted></video></div>
+                    <div class="video"><video src="img/video.mp4" muted></video></div>
+                    <div class="video"><video src="img/video.mp4" muted></video></div> -->
+                </div>
+                <div class="popup-video">
+                    <span class="close">&times;</span>
+                    <video src="img/video.mp4" muted autoplay controls></video>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="section sec5 contact" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Contact <span>Me</span><!--<span class="bg-text"></span>--></h2>
+                </div>
+                <div class="message-two">
+                    <div class="success" id="success">Your message was sent successfully!</div>
+                    <div class="alert" id="alert">You have to fill all the fields!</div>
+                </div>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <!-- <h4>Contactez-moi</h4> -->
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    75014 Paris
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <span>pkozett96@gmail.com</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fa-solid fa-mobile"></i>
+                                    <span>0784846032</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-icon">
+                            <div class="contact-icon">
+                                <a href="#">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-contact">
+                        <form class="contact-form">
+                            <div class="input-control i-c-2">
+                                <input id="name" type="text" required placeholder="Your Name">
+                                <input id="email" type="email" required placeholder="Your Email">
+                            </div>
+                            <div class="input-control">
+                                <input id="subject" type="text" required placeholder="Subject">
+                            </div>
+                            <div class="input-control">
+                                <textarea required name="" id="message" cols="15" rows="8"
+                                    placeholder="Message...."></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <span class="main-btn">
+                                    <button onclick="res()" class="send-btn">Send</button>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ICONS -->
+    <div class="controls">
+        <div class="control control-1 active-btn" data-id="home">
+            <i class="fa-solid fa-house"></i>
+        </div>
+        <div class="control control-2" data-id="about">
+            <i class="fa-solid fa-user"></i>
+        </div>
+        <div class="control control-3" data-id="portfolio">
+            <i class="fa-solid fa-briefcase"></i>
+        </div>
+        <div class="control control-5" data-id="contact">
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+        <div class="theme-btn control control-5">
+            <i class="fas fa-adjust"></i>
+        </div>
+        <div class="lang-btn control control-5">
+            <a href="index.html"><i class="fa-solid fa-globe"></i></a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+
+</html>
